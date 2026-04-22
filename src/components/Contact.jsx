@@ -37,19 +37,7 @@ export default function Contact() {
             </a>
           </div>
 
-          {/* Sub-contact details & Mini Footer */}
-          <div className="pt-8 border-t border-zinc-800 flex flex-col md:flex-row justify-between items-center gap-6 text-zinc-500 text-sm font-medium">
-            <p>© {new Date().getFullYear()} Aryan Verma. All rights reserved.</p>
-            <div className="flex items-center gap-6">
-              <p>Based in Lucknow, India</p>
-              <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noreferrer" className="hover:text-zinc-300 transition-colors">
-                LinkedIn
-              </a>
-              <a href="https://behance.net/your-profile" target="_blank" rel="noreferrer" className="hover:text-zinc-300 transition-colors">
-                Behance
-              </a>
-            </div>
-          </div>
+       
         </motion.div>
       </div>
     </section>
